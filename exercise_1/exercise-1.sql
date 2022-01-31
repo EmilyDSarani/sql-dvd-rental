@@ -1,5 +1,9 @@
 -- find all address_id of addresses in the city of Dundee
 -- use INNER JOIN FROM address on to city
+
+--the first table is the one we start with
+--then we are going to the next one
+
 SELECT address.address_id
 FROM address
 INNER JOIN city
