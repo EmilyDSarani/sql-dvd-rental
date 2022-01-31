@@ -5,7 +5,7 @@
 --then we are going to the next one
 --here we are going from rental to customer, find the common ground, then point to where you are looking for
 
-SELECT rental.rental_id
+SELECT rental.rental_date
 FROM rental
 INNER JOIN customer
 ON rental.customer_id = customer.customer_id
