@@ -5,7 +5,7 @@
 --first, go to film and grab the title
 SELECT film.title 
 FROM inventory
---then we go to inventory to grab the film id and go to the rental
+--then we go to inventory to grab the film id and go to the inventory
 LEFT JOIN film
 ON film.film_id = inventory.film_id
 --then we can move form inventory to rental on rental id
